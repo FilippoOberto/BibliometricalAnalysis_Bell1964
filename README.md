@@ -32,8 +32,10 @@ relativamente alla parte riguardante i dati post '85:
 
 SBMTM.PY
 È il modulo scritto da Gerlach per fare topic modeling con le correzioni suggerite da da Hanningam. Per maggiori informazioni a riguardo
-il rimando è al lavoro di Gerlach2018: 
+il rimando è al lavoro di Gerlach:
+
 https://advances.sciencemag.org/content/4/7/eaaq1360.full
+
 https://github.com/martingerlach/hSBM_Topicmodel
 
 TOPICMODELING.PY (e TOPICMODELING85_20.PY)
