@@ -47,3 +47,6 @@ JSONANALYZER.PY
 Lo script produce visualizzazioni grafiche dei dati contenuti all'interno dei file JSON per ogni livello richiesto. In particolar modo: 
 le informazioni contenute nei file riguardanti i topics vengono visualizzate sottoforma di istogrammi, mentre il rapporto tra cluster di 
 documenti e topics viene visualizzato attraverso la stampa di matrici (e matrici densità). 
+
+
+L'insieme degli output prodotti attraverso i codici qui presentati è disponibile al seguente indirizzo: https://mega.nz/folder/d1JmxTiT#5-59GtTFdo2mb1VVLjEG7A
