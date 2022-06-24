@@ -17,7 +17,12 @@ Questo permette di osservare l'andamento citazionale totale che coinvolge _On th
 
 ![This is an image](Images/cit_per_year.png)
 
-Si tenga presente che la raccolta di dati è stata effettuata a metà 2020. Per cui le citazioni relative a tale anno sono necessariamente incomplete. 
+Si tenga presente che la raccolta di dati è stata effettuata a metà 2020. Per cui le citazioni relative a tale anno sono necessariamente incomplete. I dati mostrano come effettivamente c'è voluto del tempo prima che i risultati ottenuti da J.S. Bell venissero accettati come rilevanti dalla comunità scientifica. Per il lavoro di analisi necessaria per contestualizzare e spiegare i risultati raggiunti si è ritenuto utile comprendere, tra le altre cose, quali siano stati gli autori che hanno maggiormente citato il lavoro in esame o quali siano state le riviste scientifiche che hanno ospitato il maggior numero di cotributi sul tema. 
+
+![This is an image](Images/au.png)
+![This is an image](Images/so.png)
+
+L'elenco completo delle visualizzazioni ottenute è disponibile sulla cartella [MEGA](https://mega.nz/folder/d1JmxTiT#5-59GtTFdo2mb1VVLjEG7A).
 
 
 
@@ -40,4 +45,4 @@ le informazioni contenute nei file riguardanti i topics vengono visualizzate sot
 documenti e topics viene visualizzato attraverso la stampa di matrici (e matrici densità). 
 
 
-L'insieme degli output prodotti attraverso i codici qui presentati è disponibile al seguente indirizzo: https://mega.nz/folder/d1JmxTiT#5-59GtTFdo2mb1VVLjEG7A
+
