@@ -22,27 +22,24 @@ Si tenga presente che la raccolta di dati è stata effettuata a metà 2020. Per 
 ![This is an image](Images/au.png)
 ![This is an image](Images/so.png)
 
-L'elenco completo delle visualizzazioni ottenute è disponibile sulla cartella [MEGA](https://mega.nz/folder/d1JmxTiT#5-59GtTFdo2mb1VVLjEG7A).
+L'elenco completo delle visualizzazioni ottenute è disponibile sulla cartella [MEGA](https://mega.nz/folder/d1JmxTiT#5-59GtTFdo2mb1VVLjEG7A) dedicata.
 
+### Analisi delle Comunità
+La seconda domanda ha richiesto, invece, l'utilizzo di differenti algoritmi di _clustering_. Utilizzando _VOSViewer_ la comunità scientifica in esame è stata analizzata utilizzando come grado di somiglianza tra le pubblicazioni che compongono il _corpus_, il _bibliographic coupling_ e la _co-citation analysis_. 
 
+![This is an image](Images/BC_Bell1964.png)
+![This is an image](Images/CC_Bell1964.png)
 
-SBMTM.PY
-È il modulo scritto da Gerlach per fare topic modeling con le correzioni suggerite da da Hanningam. Per maggiori informazioni a riguardo
-il rimando è al lavoro di Gerlach:
+Le visualizzazioni mostrate sono state rese possibili dalla completezza dei dati raccolti attraverso _Web of Science_, avendo a disposizioni le informazioni relative ai riferimenti bibliografici di ogni singola pubblicazione citante l'articolo di J.S. Bell. Per il _corpus_ di dati relativi ai documenti pubblicati precedentemente al 1964, invece, si è sfruttato il particolare approccio di **M. Gerlach** che ha proposto un nuovo approccio al [Topic Modeling](https://advances.sciencemag.org/content/4/7/eaaq1360.full)
 
-https://advances.sciencemag.org/content/4/7/eaaq1360.full
+il file `Sbmtm.py` contiene il codice modellato sul lavoro di Gerlach che permette di ottenere un grafo bipartito e gerarchicamente organizzato in grado di mostrare una suddivisione della comunità di ricerca in _cluster_ partendo dall'analisi linguistica dei singoli documenti. 
 
-https://github.com/martingerlach/hSBM_Topicmodel
+![This is an image](Images/tmp.png)
 
-TOPICMODELING.PY (e TOPICMODELING85_20.PY)
-Sono i due script con i quali applico il modello di Gerlach ai dati citazionali raccolti. (I due file lavorano sui due .csv di cui sopra. 
-Dopo aver stampato il grafo lo script produce una serie di file json che permettono di visualizzare e lavorare sulle informazioni contenute
-nel grafo stesso. 
+Per l'analisi e la lettura dei dati contenuti nell'immagine si è reso necessario accedere alle informazioni che esso contiene. Questo è stato fatto espandendo il contenuto di ogni nodo con il codice contenuto in `Topicmodeling.py` che esporta le informazioni in formato `.json`. Attraverso `Jsonanalyzer.py` il file `.json` è stato a sua volta stampato in immagine. Ogni nodo è stato tradotto in una matrice che mostrasse il legame diretto tra un _cluster_ di _topic_ e un _cluster_ di comunità
 
-JSONANALYZER.PY
-Lo script produce visualizzazioni grafiche dei dati contenuti all'interno dei file JSON per ogni livello richiesto. In particolar modo: 
-le informazioni contenute nei file riguardanti i topics vengono visualizzate sottoforma di istogrammi, mentre il rapporto tra cluster di 
-documenti e topics viene visualizzato attraverso la stampa di matrici (e matrici densità). 
+![This is an image](Images/c_t_Matrice.png)
 
+e in un istogramma che mostri i termini più rilevanti all'interno di ogni _cluster_ di _topic_.
 
-
+![This is an image](Images/l1t3_w_distro.png)
