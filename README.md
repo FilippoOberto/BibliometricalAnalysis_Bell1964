@@ -11,7 +11,7 @@ Rispondere alla prima domanda ha richiesto un lavoro quantitativo che prendesse 
 - Per quanto riguarda i dati riguardanti le pubblicazioni successive al 1985 si è attinto al bacino di _Web of Science_
 - Per quanto riguarda i dati riguardanti le pubblicazioni precedenti al 1985 si è, invece, fatto riferimento al database di _Google Scholar_
 
-![This is an image](https://mega.nz/folder/d1JmxTiT#5-59GtTFdo2mb1VVLjEG7A/folder/AxB2QTjA)
+![This is an image](Images/cit_per_year_tot.png)
 
 BELL1.0.PY
 È stato utilizzato per la maggior parte delle analisi di titpo quantitativo. La parte relativa agli script è divisa in due blocchi, 
