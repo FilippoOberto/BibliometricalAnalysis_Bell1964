@@ -13,25 +13,13 @@ Rispondere alla prima domanda ha richiesto un lavoro quantitativo che prendesse 
 
 ![This is an image](Images/cit_per_year_tot.png)
 
-BELL1.0.PY
-È stato utilizzato per la maggior parte delle analisi di titpo quantitativo. La parte relativa agli script è divisa in due blocchi, 
-ognuno dei quali prende come oggetto un differente file .csv (questo a causa del fatto che una parte dei dati è stata ottenuta attraverso 
-WoS e una parte è stata raccolta manualmente via Google Scholar. Questo ha prodotto due tabelle contenti informazioni diverse e organizzate
-in maniera lievemente differente). Lo script esegue:
-- la raccolta del numero di citazioni totali dell'articolo di Bell(1964) divise per anno 
-- la raccolta cumulativa del numero di citazioni totali dell'articolo di Bell(1964)
+Questo permette di osservare l'andamento citazionale totale che coinvolge _On the Einstein Podolski Rosen paradox_, come anche di osservare la crescita di citazioni anno per anno. 
 
-per cicli di dieci anni: 
-- la raccolta degli n autori più frequenti (tra quelli che citano l'articolo preso in esame)
-- la raccolta delle n fonti più frequenti
-- la raccolta delle n parole più frequenti negli abstract
-- la raccolta delle n parole più frequenti nei titoli 
+![This is an image](Images/cit_per_year.png)
 
-- la stampa dei grafici che mostrano l'andamento delle citazioni sulle riviste che hanno collezionato più di un certo numero n di articoli 
-che citavano (Bell1964)
+Si tenga presente che la raccolta di dati è stata effettuata a metà 2020. Per cui le citazioni relative a tale anno sono necessariamente incomplete. 
 
-relativamente alla parte riguardante i dati post '85: 
-- l'analisi delle affiliazioni degli autori più frequenti (intesa per singoli dipartimenti e non per università). 
+
 
 SBMTM.PY
 È il modulo scritto da Gerlach per fare topic modeling con le correzioni suggerite da da Hanningam. Per maggiori informazioni a riguardo
