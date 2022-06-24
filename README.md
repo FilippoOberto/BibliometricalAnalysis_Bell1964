@@ -1,15 +1,17 @@
 # Misurare l'Impatto della Produzione Scientifica. 
 ## Risultati di un'Indagine Bibliometrica sul Teorema di Bell. 
 
-AVVERTENZA: 
-La qualità dei codici qui pubblicati non è particolarmente raffinata. Tali codici sono il risultato di un lungo lavoro
-e di diverse manipolazioni. Moltoo spesso ho imparato il funzionamento di alcuni moduli importati mentre li stavo utilizzando 
-e questo ha prodotto un risultato che non sempre è il più efficace, soprattutto per quanto riguarda la leggibilità e la pulizia.
-Tuttavia il lavoro svolto permette di ottenere dei risultati verificabili e replicabili. Sarebbe interessante provare a riscrivere 
-in un secondo momento tutti gli script qui collezionati, eliminando le parti superflue e rendendo più snello e pulito il lavoro. 
+La repository contiene i codici scritti per la realizzazione del lavoro di tesi magistrale. Quest'ultimo è stato articolato intorno a due domande di ricerca fondamentali: 
+1) La storia del Teorema di Bell ci racconta davvero una storia di completo disinteresse nei confronti del lavoro del fisico irlandese come molta letteratura sul tema lascia intendere? 
+2) E possibile ottenere una visualizzazione della comunità di ricerca che si è interessata al risultato raggiunto da Bell nel 1964?
 
 
-Breve spiegazione del lavoro svolto dai file .py:
+### Analisi Storica 
+Rispondere alla prima domanda ha richiesto un lavoro quantitativo che prendesse come _input_ due differenti file **.csv** e offrisse come _output_ una serie di visualizzazioni che permettessero di ottenere a colpo d'occhio le informazioni necessarie. Lo script prodotto a tale scopo `Bell1.0.py` deve adattarsi alla differente struttura dei due file in _input_ che contengono i dati ottenuti da due differenti banche dati: 
+- Per quanto riguarda i dati riguardanti le pubblicazioni successive al 1985 si è attinto al bacino di _Web of Science_
+- Per quanto riguarda i dati riguardanti le pubblicazioni precedenti al 1985 si è, invece, fatto riferimento al database di _Google Scholar_
+
+![This is an image](https://mega.nz/folder/d1JmxTiT#5-59GtTFdo2mb1VVLjEG7A/folder/AxB2QTjA)
 
 BELL1.0.PY
 È stato utilizzato per la maggior parte delle analisi di titpo quantitativo. La parte relativa agli script è divisa in due blocchi, 
