@@ -1,4 +1,5 @@
-# BibliometricalAnalysis_Bell1964
+# Misurare l'Impatto della Produzione Scientifica. 
+## Risultati di un'Indagine Bibliometrica sul Teorema di Bell. 
 
 AVVERTENZA: 
 La qualità dei codici qui pubblicati non è particolarmente raffinata. Tali codici sono il risultato di un lungo lavoro
